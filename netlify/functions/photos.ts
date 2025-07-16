@@ -1,6 +1,6 @@
 import { Handler } from '@netlify/functions';
 
-const UNSPLASH_ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY || "760avCQj5tNL4vYmNGfGLhcbsHEl-vCK5167KyEJEDw";
+const UNSPLASH_ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY || "ACCESS-KEY";
 const UNSPLASH_API_URL = "https://api.unsplash.com";
 
 export const handler: Handler = async (event, context) => {
